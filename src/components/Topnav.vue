@@ -36,12 +36,11 @@
 
   export default {
     setup() {
-      const asideVisible = inject <Ref<boolean>>('xxx');
-      console.log('topnav 获取的 asideVisible 为:' + asideVisible.value);
-      const toggleMenu =()=>{
-        asideVisible.value = !asideVisible.value
-      }
-      return {toggleMenu}
+      const asideVisible = inject<Ref<boolean>>('asideVisible');
+      const toggleMenu = () => {
+        asideVisible.value = !asideVisible.value;
+      };
+      return {toggleMenu};
     }
   };
 </script>

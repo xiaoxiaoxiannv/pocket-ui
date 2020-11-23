@@ -29,10 +29,9 @@
 
   export default {
     components: {Topnav},
-    setup(){
-      const asideVisible = inject < Ref<boolean>>('xxx');
-      console.log('aside 获取的 asideVisible 为:' + asideVisible.value);
-        return {asideVisible}
+    setup() {
+      const asideVisible = inject<Ref<boolean>>('asideVisible');
+      return {asideVisible};
     }
   };
 </script>
