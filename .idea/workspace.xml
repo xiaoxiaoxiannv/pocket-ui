@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
@@ -21,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/Home.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/Topnav.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/Doc.vue" root0="SKIP_INSPECTION" />
@@ -54,7 +57,7 @@
       <updated>1605865875890</updated>
       <workItem from="1605865878527" duration="4787000" />
       <workItem from="1605875139945" duration="3987000" />
-      <workItem from="1606123200069" duration="5395000" />
+      <workItem from="1606123200069" duration="7931000" />
     </task>
     <servers />
   </component>
@@ -85,9 +88,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125993835" />
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1606129133904">
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1606129612658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606129133904" />
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606129612658" />
   </component>
 </project>
