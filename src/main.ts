@@ -2,15 +2,15 @@ import {createApp} from 'vue';
 import App from './App.vue';
 import './index.css';
 import {createWebHashHistory, createRouter} from 'vue-router';
-import Luna from './components/Luna.vue';
-import Luna2 from './components/Luna2.vue'
+import Home from './views/Home.vue';
+import Doc from './views/Doc.vue'
 
 const history = createWebHashHistory();
 const router = createRouter({
   history: history,
   routes: [
-    {path: '/', component: Luna},
-    {path: '/xxx', component: Luna2}
+    {path: '/', component: Home},
+    {path: '/doc', component: Doc}
 
   ]
 });
