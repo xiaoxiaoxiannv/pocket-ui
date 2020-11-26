@@ -15,6 +15,16 @@
         <Button>正常大小</Button>
         <Button size="small">小</Button>
     </div>
+    <div>
+        <Button theme="link" size="big">大</Button>
+        <Button theme="link">正常大小</Button>
+        <Button size="small" theme="link">小</Button>
+    </div>
+    <div>
+        <Button size="big" theme="text">大</Button>
+        <Button theme="text">正常大小</Button>
+        <Button size="small" theme="text">小</Button>
+    </div>
 </template>
 <script lang="ts">
   import Button from '../lib/Button.vue';
