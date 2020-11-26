@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <workItem from="1605865878527" duration="4787000" />
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
-      <workItem from="1606196463320" duration="14631000" />
+      <workItem from="1606196463320" duration="15175000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606297878673</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Switch css更新">
+      <created>1606367436088</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606367436088</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +199,18 @@
     <MESSAGE value="动画流畅了" />
     <MESSAGE value="可以接受value和input事件" />
     <MESSAGE value="使用v-model" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用v-model" />
+    <MESSAGE value="Switch css更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch css更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606125653737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
-    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606297875978">
+    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606367433936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606297875978" />
+    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606367433936" />
     <state x="90" y="166" key="SettingsEditor" timestamp="1605871235673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

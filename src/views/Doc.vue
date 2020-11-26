@@ -91,7 +91,8 @@
             }
         }
     }
-    main{
+
+    main {
         overflow: auto;
     }
 </style>
