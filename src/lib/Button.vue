@@ -1,6 +1,6 @@
 <template>
     <button class="gulu-button"
-            :class="`theme-${theme}`"
+            :class="`gulu-theme-${theme}`"
     >
         <slot/>
     </button>
@@ -15,7 +15,7 @@
     }
   };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
     $h: 32px;
     $border-color: #d9d9d9;
     $color: #333;
@@ -51,6 +51,26 @@
 
         &::-moz-focus-inner {
             border: 0;
+        }
+
+        &.gulu-theme-link {
+            border-color: transparent;
+            box-shadow: none;
+            color: $blue;
+
+            &:hover, &:focus {
+                color: lighten($blue, 10%);
+            }
+        }
+
+        &.gulu-theme-text {
+            border-color: transparent;
+            box-shadow: none;
+            color: inherit;
+
+            &:hover, &:focus {
+                background: darken(white, 5%);;
+            }
         }
     }
 </style>
