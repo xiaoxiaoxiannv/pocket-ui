@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/src/main.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Switch.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Button.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/DialogDemo.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/SwitchDemo.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Dialog.vue" root0="SKIP_INSPECTION" />
@@ -61,7 +63,7 @@
       <workItem from="1605865878527" duration="4787000" />
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
-      <workItem from="1606196463320" duration="29199000" />
+      <workItem from="1606196463320" duration="30704000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606452579491</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Dialog css">
+      <created>1606454180779</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606454180779</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +274,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="让topnav是响应式的" />
     <MESSAGE value="添加toggleAside" />
     <MESSAGE value="完善aside切换逻辑" />
     <MESSAGE value="路由切换之后关闭aside" />
@@ -290,7 +298,8 @@
     <MESSAGE value="支持disabled属性" />
     <MESSAGE value="支持loading属性" />
     <MESSAGE value="创建Dialog组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Dialog组件" />
+    <MESSAGE value="Dialog css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606125653737">

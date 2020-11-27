@@ -1,23 +1,31 @@
 <template>
-    <div class="gulu-dialog-overlay"></div>
-    <div class="gulu-dialog-wrapper">
-        <div class="gulu-dialog">
-            <header>标题<span class="gulu-dialog-close"></span></header>
-            <main>
-                <p>第一行</p>
-                <p>第二行</p>
-            </main>
-            <footer>
-                <Button level="main">Ok</Button>
-                <Button>Cancel</Button>
-            </footer>
+    <template v-if="visible">
+        <div class="gulu-dialog-overlay"></div>
+        <div class="gulu-dialog-wrapper">
+            <div class="gulu-dialog">
+                <header>标题<span class="gulu-dialog-close"></span></header>
+                <main>
+                    <p>第一行</p>
+                    <p>第二行</p>
+                </main>
+                <footer>
+                    <Button level="main">Ok</Button>
+                    <Button>Cancel</Button>
+                </footer>
+            </div>
         </div>
-    </div>
+    </template>
 </template>
 <script lang="ts">
   import Button from './Button.vue';
 
   export default {
+    props: {
+      visible: {
+        type: Boolean,
+        default: false
+      }
+    },
     components: {Button}
   };
 </script>
@@ -57,14 +65,17 @@
             justify-content: space-between;
             font-size: 20px;
         }
-        >main{
+
+        > main {
             padding: 12px 16px;
         }
-        >footer{
-            border-top:1px solid $border-color;
+
+        > footer {
+            border-top: 1px solid $border-color;
             padding: 12px 16px;
             text-align: right;
         }
+
         &-close {
             position: relative;
             display: inline-block;
