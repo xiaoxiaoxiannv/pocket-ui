@@ -63,7 +63,7 @@
       <workItem from="1605865878527" duration="4787000" />
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
-      <workItem from="1606196463320" duration="30704000" />
+      <workItem from="1606196463320" duration="32582000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606454180779</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Dialog支持visible">
+      <created>1606455689276</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606455689276</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +281,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加toggleAside" />
     <MESSAGE value="完善aside切换逻辑" />
     <MESSAGE value="路由切换之后关闭aside" />
     <MESSAGE value="整体布局css" />
@@ -299,17 +305,18 @@
     <MESSAGE value="支持loading属性" />
     <MESSAGE value="创建Dialog组件" />
     <MESSAGE value="Dialog css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog css" />
+    <MESSAGE value="Dialog支持visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog支持visible" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606125653737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
-    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606454178679">
+    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606455687792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606454178679" />
+    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606455687792" />
     <state x="90" y="166" key="SettingsEditor" timestamp="1605871235673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
