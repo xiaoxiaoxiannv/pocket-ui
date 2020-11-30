@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <workItem from="1605865878527" duration="4787000" />
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
-      <workItem from="1606196463320" duration="39624000" />
+      <workItem from="1606196463320" duration="41925000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -291,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606464213749</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="创建Tabs和Tab组件">
+      <created>1606715996912</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606715996913</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +316,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Switch组件添加HTML" />
     <MESSAGE value="Switch css" />
     <MESSAGE value="hover之后右滚" />
     <MESSAGE value="可以切换了" />
@@ -336,17 +340,18 @@
     <MESSAGE value="Dialog支持自定义title和content,使用具名插槽" />
     <MESSAGE value="使用Teleport,防止Dialog被遮挡" />
     <MESSAGE value="openDialog一句话打开Dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="openDialog一句话打开Dialog" />
+    <MESSAGE value="创建Tabs和Tab组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建Tabs和Tab组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606125653737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
-    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606464212205">
+    <state x="144" y="111" key="CommitChangelistDialog2" timestamp="1606715994663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606464212205" />
+    <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606715994663" />
     <state x="90" y="166" key="SettingsEditor" timestamp="1605871235673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
