@@ -1,13 +1,15 @@
 <template>
-    <Topnav/>
-    <div>
-        <div class="banner">
-            <h1>轱辘UI</h1>
-            <h2>一个UI框架</h2>
-            <p class="actions">
-                <a href="https://github.com">GitHub</a>
-                <router-link to="/doc">开始</router-link>
-            </p>
+    <div class="topnavAndBanner">
+        <Topnav/>
+        <div>
+            <div class="banner">
+                <h1>轱辘UI</h1>
+                <h2>一个UI框架</h2>
+                <p class="actions">
+                    <a href="https://github.com">GitHub</a>
+                    <router-link to="/doc">开始</router-link>
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -19,16 +21,21 @@
   };
 </script>
 <style lang="scss" scoped>
-    .banner{
+    .topnavAndBanner {
+        background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
+    }
+
+    .banner {
         padding: 100px 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: lightgreen;
-        > .actions{
+
+        > .actions {
             padding: 8px 0;
-            a{
+
+            a {
                 margin: 0 8px;
                 background: #fff;
                 display: inline-block;
