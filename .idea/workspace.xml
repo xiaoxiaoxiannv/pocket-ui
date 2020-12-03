@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="从iconfont引入图标">
+    <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
       <workItem from="1606196463320" duration="54790000" />
-      <workItem from="1606813882093" duration="11861000" />
+      <workItem from="1606813882093" duration="16158000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -372,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606918933840</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="从iconfont引入图标">
+      <created>1607005839982</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607005839982</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,27 +432,29 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005199365" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607005814146">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607005837130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005814146" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005837130" />
     <state x="90" y="166" key="SettingsEditor" timestamp="1607005451497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605871235673" />
     <state x="90" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005451496" />
-    <state x="262" y="257" width="667" height="526" key="find.popup" timestamp="1606125993835">
+    <state x="262" y="257" width="667" height="526" key="find.popup" timestamp="1607009034534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125993835" />
+    <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607009034534" />
     <state x="367" y="244" key="run.anything.popup" timestamp="1606283517258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="367" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606283517258" />
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1606129612658">
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607009022334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606129612658" />
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607009022334" />
   </component>
 </project>

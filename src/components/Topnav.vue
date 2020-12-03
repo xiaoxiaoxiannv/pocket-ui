@@ -2,14 +2,15 @@
     <div class="topnav">
         <div class="logo">
             <svg class="icon">
-                <use xlink:href="#icon-treasure"></use>
+                <use xlink:href="#icon-pocket"></use>
             </svg>
         </div>
         <ul class="menu">
-            <li>菜单1</li>
-            <li>菜单2</li>
+            <li>
+                <router-link to="/doc">文档</router-link>
+            </li>
         </ul>
-        <span class="toggleAside"  @click="toggleMenu"></span>
+        <span v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu"></span>
     </div>
 </template>
 <style lang="scss" scoped>
@@ -27,7 +28,8 @@
         > .logo {
             max-width: 6em;
             margin-right: auto;
-            >svg {
+
+            > svg {
                 width: 32px;
                 height: 32px;
             }
@@ -71,6 +73,12 @@
   import {inject, Ref} from 'vue';
 
   export default {
+    props:{
+      toggleMenuButtonVisible:{
+        type: Boolean,
+        default: false
+      }
+    },
     setup() {
       const asideVisible = inject<Ref<boolean>>('asideVisible');
       const toggleMenu = () => {
