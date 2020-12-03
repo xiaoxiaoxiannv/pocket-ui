@@ -39,6 +39,10 @@
             display: flex;
             white-space: nowrap;
             flex-wrap: nowrap;
+            background: black;
+            color: white;
+            display: inline-block;
+            border-radius: 10px;
 
             > li {
                 margin: 0 1em;

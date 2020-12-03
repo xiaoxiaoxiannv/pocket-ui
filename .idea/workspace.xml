@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
       <workItem from="1606196463320" duration="54790000" />
-      <workItem from="1606813882093" duration="16158000" />
+      <workItem from="1606813882093" duration="16415000" />
     </task>
     <task id="LOCAL-00001" summary="实现aside切换">
       <created>1606131770478</created>
@@ -379,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607005839982</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="features样式">
+      <created>1607010298690</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607010298690</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="支持theme属性" />
     <MESSAGE value="支持size属性" />
     <MESSAGE value="size css更新" />
     <MESSAGE value="支持level属性" />
@@ -424,7 +427,8 @@
     <MESSAGE value="优化代码，用watchEffect代替onMounted和onUpdated，并用onMounted把watchEffect包起来，以防watchEffect在onMounted前执行" />
     <MESSAGE value="背景渐变" />
     <MESSAGE value="从iconfont引入图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="从iconfont引入图标" />
+    <MESSAGE value="features样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="features样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607005199365">
@@ -432,11 +436,11 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005199365" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607005837130">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607010297251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005837130" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607010297251" />
     <state x="90" y="166" key="SettingsEditor" timestamp="1607005451497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
