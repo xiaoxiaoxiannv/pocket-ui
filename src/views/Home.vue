@@ -5,7 +5,7 @@
             <div>
                 <div class="banner">
                     <h1>Pocket UI</h1>
-                    <h2>一个超厉害的UI框架</h2>
+                    <h2>一个基于Vue3的UI框架</h2>
                     <p class="actions">
                         <a href="https://github.com">GitHub</a>
                         <router-link to="/doc">开始</router-link>
