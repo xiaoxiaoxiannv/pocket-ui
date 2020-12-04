@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
-    </list>
+    <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +31,9 @@
     <setting file="file://$PROJECT_DIR$/src/components/Topnav.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/GetStart.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/views/Install.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/DialogDemo.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/views/Intro.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/SwitchDemo.vue" root0="SKIP_INSPECTION" />
   </component>
@@ -70,14 +66,7 @@
       <workItem from="1605875139945" duration="3987000" />
       <workItem from="1606123200069" duration="15069000" />
       <workItem from="1606196463320" duration="54790000" />
-      <workItem from="1606813882093" duration="23137000" />
-    </task>
-    <task id="LOCAL-00002" summary="让topnav是响应式的">
-      <created>1606192290915</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606192290915</updated>
+      <workItem from="1606813882093" duration="23437000" />
     </task>
     <task id="LOCAL-00003" summary="添加toggleAside">
       <created>1606192653406</created>
@@ -415,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607067705874</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="填充文档内容">
+      <created>1607068587063</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1607068587063</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建Dialog组件" />
     <MESSAGE value="Dialog css" />
     <MESSAGE value="Dialog支持visible" />
     <MESSAGE value="Dialog支持点击关闭" />
@@ -460,7 +455,8 @@
     <MESSAGE value="添加首页导航" />
     <MESSAGE value="创建文档路由" />
     <MESSAGE value="菜单页字体高亮" />
-    <option name="LAST_COMMIT_MESSAGE" value="菜单页字体高亮" />
+    <MESSAGE value="填充文档内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="填充文档内容" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607005199365">
