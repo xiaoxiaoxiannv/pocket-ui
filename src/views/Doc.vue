@@ -84,22 +84,40 @@
     }
 
     aside {
-        background: lightblue;
         width: 150px;
-        padding: 16px;
+        padding:1rem 0 16px;
         position: fixed;
         top: 0;
         left: 0;
         padding-top: 70px;
         height: 100%;
+        border-right: 1px solid #eaecef;
+
 
         > h2 {
             margin-bottom: 4px;
+            padding-left: 16px;
+            font-weight: 700;
+            margin-top: 1rem;
         }
 
         > ol {
             > li {
-                padding: 4px 0;
+                > a {
+                    display: block;
+                    padding: 4px 0 4px 2rem;
+                    border-left: 4px solid transparent;
+                    text-decoration: none;
+                    &:hover, &:focus {
+                        outline: none;
+                        border-bottom: none;
+                        color: #4472c4;
+                    }
+                    &.router-link-active{
+                        border-left: 4px solid #a6a6ab;
+                        color: #a6a6ab;
+                    }
+                }
             }
         }
     }
