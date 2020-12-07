@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,21 +81,7 @@
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
       <workItem from="1607332532757" duration="3887000" />
-      <workItem from="1607336451616" duration="3806000" />
-    </task>
-    <task id="LOCAL-00008" summary="Switch组件添加HTML">
-      <created>1606200182244</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1606200182244</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Switch css">
-      <created>1606200536058</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1606200536058</updated>
+      <workItem from="1607336451616" duration="6897000" />
     </task>
     <task id="LOCAL-00010" summary="hover之后右滚">
       <created>1606200849301</created>
@@ -426,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607339662184</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="展示源代码">
+      <created>1607340273688</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1607340273688</updated>
+    </task>
+    <task id="LOCAL-00058" summary="小优化">
+      <created>1607340407765</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1607340407765</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,8 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="openDialog一句话打开Dialog" />
-    <MESSAGE value="创建Tabs和Tab组件" />
     <MESSAGE value="防御型编程，防止开发者传错Tab" />
     <MESSAGE value="渲染Tabs内容" />
     <MESSAGE value="Tabs css" />
@@ -471,7 +469,9 @@
     <MESSAGE value="优化markdown" />
     <MESSAGE value="更新SwitchDemo" />
     <MESSAGE value="抽离用户需要拷贝的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
+    <MESSAGE value="展示源代码" />
+    <MESSAGE value="小优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="小优化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607005199365">
@@ -494,19 +494,19 @@
     </state>
     <state x="90" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1605871235673" />
     <state x="90" y="166" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005451496" />
-    <state x="262" y="257" width="667" height="526" key="find.popup" timestamp="1607009034534">
+    <state x="262" y="257" width="667" height="526" key="find.popup" timestamp="1607348349003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125993835" />
-    <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607009034534" />
+    <state x="262" y="257" width="667" height="526" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607348349003" />
     <state x="367" y="244" key="run.anything.popup" timestamp="1606283517258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="367" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606283517258" />
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607325283696">
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607348286063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606129612658" />
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607325283696" />
+    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607348286063" />
   </component>
 </project>
