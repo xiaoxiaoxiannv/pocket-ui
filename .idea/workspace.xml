@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/md.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/get-start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +27,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/views/Install.vue" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/views/GetStart.vue" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/plugins/md.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/views/Intro.vue" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/components/DialogDemo.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/App.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/Home.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
@@ -46,12 +37,15 @@
     <setting file="file://$PROJECT_DIR$/src/markdown/intro.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Button.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/vite.config.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/plugins/md.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/openDialog.ts" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/markdown/get-start.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/markdown/get-started.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Dialog.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/markdown/install.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/Topnav.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/router.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/DialogDemo.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/SwitchDemo.vue" root0="SKIP_INSPECTION" />
   </component>
@@ -87,14 +81,8 @@
       <workItem from="1606196463320" duration="54790000" />
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
-      <workItem from="1607332532757" duration="3137000" />
-    </task>
-    <task id="LOCAL-00004" summary="完善aside切换逻辑">
-      <created>1606194116082</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1606194116082</updated>
+      <workItem from="1607332532757" duration="3887000" />
+      <workItem from="1607336451616" duration="2053000" />
     </task>
     <task id="LOCAL-00005" summary="路由切换之后关闭aside">
       <created>1606195187634</created>
@@ -432,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607068935041</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="支持markdown文件">
+      <created>1607335906496</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1607335906497</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dialog支持visible" />
     <MESSAGE value="Dialog支持点击关闭" />
     <MESSAGE value="Dialog支持自定义title和content,使用具名插槽" />
     <MESSAGE value="使用Teleport,防止Dialog被遮挡" />
@@ -477,7 +471,8 @@
     <MESSAGE value="菜单页字体高亮" />
     <MESSAGE value="填充文档内容" />
     <MESSAGE value="引入github样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入github样式" />
+    <MESSAGE value="支持markdown文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持markdown文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607005199365">
@@ -485,12 +480,12 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607005199365" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607068933623">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607338555116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
     <state x="-1606" y="140" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607067703940" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607068933623" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607338555116" />
     <state x="93" y="107" width="1224" height="840" key="DiffContextDialog" timestamp="1607060408108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
