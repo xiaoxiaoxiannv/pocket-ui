@@ -54,7 +54,6 @@
         margin: 16px 0 32px;
         border-radius: 6px;
 
-
         > h2 {
             font-size: 20px;
             padding: 8px 16px;

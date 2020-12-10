@@ -39,7 +39,17 @@
 </template>
 <script lang="ts">
   import Topnav from '../components/Topnav.vue';
-  import {inject, Ref,reactive} from 'vue';
+  import {inject, Ref,reactive, onMounted,
+    onUnmounted,
+    provide,
+    ref,
+    watchEffect} from 'vue';
+  import {
+    router
+  } from '../router';
+  import {
+    debounce
+  } from '../utils/debounce';
 
   export default {
     components: {Topnav},
@@ -54,6 +64,24 @@
           asideVisible.value = false;
         }
       }
+      const watchPageWidth = () => {
+        const listenerPageWidth = debounce(() => {
+          data.pageWidth = document.documentElement.clientWidth;
+        }, 300);
+        window.addEventListener("resize", listenerPageWidth);
+        return listenerPageWidth;
+      };
+      watchEffect(() => {
+        if (data.pageWidth >= 896) {
+          asideVisible.value = true;
+        }
+      })
+      onMounted(() => {
+        data.listenerPageWidthFn = watchPageWidth();
+      })
+      onUnmounted(() => {
+        window.removeEventListener("resize", data.listenerPageWidthFn);
+      })
       return {asideVisible,toggleAsideVisible};
     }
   };
