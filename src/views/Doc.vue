@@ -31,7 +31,7 @@
                     </li>
                 </ol>
             </aside>
-            <main>
+            <main @click="toggleAsideVisible">
                 <router-view/>
             </main>
         </div>
@@ -39,18 +39,28 @@
 </template>
 <script lang="ts">
   import Topnav from '../components/Topnav.vue';
-  import {inject, Ref} from 'vue';
+  import {inject, Ref,reactive} from 'vue';
 
   export default {
     components: {Topnav},
     setup() {
+      const data = reactive({
+        listenerPageWidthFn: () => {},
+        pageWidth: document.documentElement.clientWidth
+      })
       const asideVisible = inject<Ref<boolean>>('asideVisible');
-      return {asideVisible};
+      const toggleAsideVisible = () => {
+        if (data.pageWidth <= 896) {
+          asideVisible.value = false;
+        }
+      }
+      return {asideVisible,toggleAsideVisible};
     }
   };
 </script>
 <style lang="scss" scoped>
     $aside-index : 10;
+
     .layout {
         display: flex;
         flex-direction: column;
@@ -121,6 +131,11 @@
                         color: #a6a6ab;
                     }
                 }
+            }
+        }
+        @media (max-width: 500px) {
+            >aside {
+                min-width: 50%;
             }
         }
     }

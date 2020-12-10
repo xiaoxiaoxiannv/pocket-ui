@@ -4,10 +4,7 @@
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +89,7 @@
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
       <workItem from="1607332532757" duration="3887000" />
-      <workItem from="1607336451616" duration="26820000" />
-    </task>
-    <task id="LOCAL-00020" summary="支持theme属性">
-      <created>1606381856677</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1606381856677</updated>
+      <workItem from="1607336451616" duration="28950000" />
     </task>
     <task id="LOCAL-00021" summary="支持size属性">
       <created>1606382877365</created>
@@ -437,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607608310809</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="优化css">
+      <created>1607609196792</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609196792</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="从iconfont引入图标" />
     <MESSAGE value="features样式" />
     <MESSAGE value="文档css更新" />
     <MESSAGE value="更新切换按钮的样式" />
@@ -482,7 +478,8 @@
     <MESSAGE value="晚上Switch组件细节" />
     <MESSAGE value="完善Button组件细节" />
     <MESSAGE value="完善Dialog组件细节" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善Dialog组件细节" />
+    <MESSAGE value="优化css" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607352024673">
@@ -490,12 +487,12 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607352024673" />
-    <state x="-1606" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607608308855">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607609194990">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
     <state x="-1606" y="140" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607608308855" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607605985133" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607609194990" />
     <state x="93" y="107" width="1224" height="840" key="DiffContextDialog" timestamp="1607060408108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -514,10 +511,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="367" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606283517258" />
-    <state x="258" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607604976219">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1662" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607610994050">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606129612658" />
+    <state x="-1662" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607610994050" />
     <state x="258" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607604976219" />
   </component>
 </project>

@@ -53,10 +53,7 @@
         border: 1px solid $border-color;
         margin: 16px 0 32px;
         border-radius: 6px;
-        width: 1000px;
-        @media (max-width: 500px) {
 
-        }
 
         > h2 {
             font-size: 20px;
