@@ -49,8 +49,8 @@
     $color: #333;
     $blue: #40a9ff;
     $radius: 4px;
-    $red: red;
-    $grey: grey;
+    $red: #ff4848;
+    $grey:  #a3a3a3;
     .pocket-button {
         box-sizing: border-box;
         height: $h;
@@ -68,7 +68,7 @@
         transition: background 250ms;
 
         & + & {
-            margin-left: 8px;
+            margin-left: 12px;
         }
 
         &:hover, &:focus {

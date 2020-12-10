@@ -65,7 +65,7 @@
         }
 
         &-component {
-            padding: 16px;
+            padding: 20px;
         }
 
         &-actions {
