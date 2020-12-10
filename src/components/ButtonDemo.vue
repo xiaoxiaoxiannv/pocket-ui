@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h1>Button 示例</h1>
+        <h1>Button 按钮</h1>
+        <p>常用的操作按钮。</p>
         <Demo :component="Button1Demo"/>
         <Demo :component="Button2Demo"/>
         <Demo :component="Button3Demo"/>
@@ -22,3 +23,9 @@
     }
   };
 </script>
+<style lang="scss" scoped>
+    p{
+        color: #5e6d82;
+        margin-bottom: 50px;
+    }
+</style>

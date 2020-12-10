@@ -110,14 +110,14 @@
             padding: 0 16px;
         }
 
-        &.gulu-size-small {
+        &.pocket-size-small {
             font-size: 12px;
             height: 20px;
             padding: 0 4px;
         }
 
         &.pocket-theme-button {
-            &.gulu-level-main {
+            &.pocket-level-main {
                 background: $blue;
                 color: white;
                 border-color: $blue;

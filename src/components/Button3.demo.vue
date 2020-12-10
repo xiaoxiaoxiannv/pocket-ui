@@ -1,5 +1,5 @@
 <demo>
-    支持 level
+    按钮等级
 </demo>
 <template>
     <div>
