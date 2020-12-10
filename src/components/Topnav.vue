@@ -15,6 +15,25 @@
         </svg>
     </div>
 </template>
+<script lang="ts">
+  import {inject, Ref} from 'vue';
+
+  export default {
+    props:{
+      toggleMenuButtonVisible:{
+        type: Boolean,
+        default: false
+      }
+    },
+    setup() {
+      const asideVisible = inject<Ref<boolean>>('asideVisible');
+      const toggleMenu = () => {
+        asideVisible.value = !asideVisible.value;
+      };
+      return {toggleMenu};
+    }
+  };
+</script>
 <style lang="scss" scoped>
     .topnav {
         display: flex;
@@ -62,6 +81,11 @@
         }
 
         @media (max-width: 500px) {
+            position: fixed;
+            padding: 0;
+            padding-top: 5px;
+            background-color: #F5F5F5;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
             > .menu {
                 display: none
             }
@@ -74,22 +98,3 @@
         }
     }
 </style>
-<script lang="ts">
-  import {inject, Ref} from 'vue';
-
-  export default {
-    props:{
-      toggleMenuButtonVisible:{
-        type: Boolean,
-        default: false
-      }
-    },
-    setup() {
-      const asideVisible = inject<Ref<boolean>>('asideVisible');
-      const toggleMenu = () => {
-        asideVisible.value = !asideVisible.value;
-      };
-      return {toggleMenu};
-    }
-  };
-</script>

@@ -5,7 +5,8 @@
             <component :is="component"/>
         </div>
         <div class="demo-actions">
-            <Button @click="toggleCode">查看代码</Button>
+            <Button v-if="codeVisible" @click="hideCode">隐藏代码</Button>
+            <Button v-else @click="toggleCode">查看代码</Button>
         </div>
         <div class="demo-code" v-if="codeVisible">
             <pre class="language-html" v-html="html"/>
@@ -32,11 +33,15 @@
       })
       const toggleCode = () => codeVisible.value = !codeVisible.value
       const codeVisible = ref(false)
+      const hideCode = () => {
+        codeVisible.value = false
+      }
       return {
         Prism,
         html,
         codeVisible,
-        toggleCode
+        toggleCode,
+        hideCode
       };
     }
   };
@@ -47,6 +52,11 @@
     .demo {
         border: 1px solid $border-color;
         margin: 16px 0 32px;
+        border-radius: 6px;
+        width: 1000px;
+        @media (max-width: 500px) {
+
+        }
 
         > h2 {
             font-size: 20px;
@@ -71,6 +81,7 @@
                 line-height: 1.1;
                 font-family: Consolas, 'Courier New', Courier, monospace;
                 margin: 0;
+                background-color: #e6effb;
             }
         }
     }

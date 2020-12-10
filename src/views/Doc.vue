@@ -50,6 +50,7 @@
   };
 </script>
 <style lang="scss" scoped>
+    $aside-index : 10;
     .layout {
         display: flex;
         flex-direction: column;
@@ -62,7 +63,7 @@
         > .content {
             flex-grow: 1;
             padding-top: 60px;
-            padding-left: 156px;
+            padding-left: 400px;
             @media (max-width: 500px) {
                 padding-left: 0;
             }
@@ -84,7 +85,8 @@
     }
 
     aside {
-        width: 150px;
+        background: white;
+        width: 200px;
         padding:1rem 0 16px;
         position: fixed;
         top: 0;
@@ -92,6 +94,7 @@
         padding-top: 70px;
         height: 100%;
         border-right: 1px solid #eaecef;
+        z-index: $aside-index;
 
 
         > h2 {
