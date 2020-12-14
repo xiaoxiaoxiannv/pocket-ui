@@ -21,10 +21,6 @@
 </script>
 <style lang="scss" scoped>
     $border-color: #d9d9d9;
-    p{
-        color: #5e6d82;
-        margin-bottom: 50px;
-    }
     .demo {
         border: 1px solid $border-color;
         margin: 16px 0 32px;

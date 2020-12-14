@@ -13,9 +13,3 @@
     }
   };
 </script>
-<style lang="scss" scoped>
-    p{
-        color: #5e6d82;
-        margin-bottom: 50px;
-    }
-</style>
