@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,21 +89,7 @@
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
       <workItem from="1607332532757" duration="3887000" />
-      <workItem from="1607336451616" duration="29935000" />
-    </task>
-    <task id="LOCAL-00023" summary="支持level属性">
-      <created>1606383506503</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1606383506503</updated>
-    </task>
-    <task id="LOCAL-00024" summary="支持disabled属性">
-      <created>1606383958839</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1606383958839</updated>
+      <workItem from="1607336451616" duration="34229000" />
     </task>
     <task id="LOCAL-00025" summary="支持loading属性">
       <created>1606384332630</created>
@@ -432,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607611805156</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="更新">
+      <created>1607612284137</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1607612284137</updated>
+    </task>
+    <task id="LOCAL-00073" summary="更新markdown文件">
+      <created>1607612408502</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1607612408503</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,8 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新切换按钮的样式" />
-    <MESSAGE value="添加首页导航" />
     <MESSAGE value="创建文档路由" />
     <MESSAGE value="菜单页字体高亮" />
     <MESSAGE value="填充文档内容" />
@@ -477,7 +477,9 @@
     <MESSAGE value="优化css" />
     <MESSAGE value="在导航栏展开时，点击其他位置可关闭导航栏" />
     <MESSAGE value="修复 导航栏在宽度发生变化时会消失的 bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复 导航栏在宽度发生变化时会消失的 bug" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="更新markdown文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新markdown文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607352024673">
@@ -485,12 +487,12 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607352024673" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607612282108">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607920661051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
     <state x="-1606" y="140" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607611253324" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607612282108" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607920661051" />
     <state x="93" y="107" width="1224" height="840" key="DiffContextDialog" timestamp="1607060408108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
