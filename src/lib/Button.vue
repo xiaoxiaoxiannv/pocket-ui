@@ -4,8 +4,16 @@
         <slot/>
     </button>
 </template>
-<script lang="ts">
+<script lang="ts" setup="props">
   import {computed} from 'vue';
+
+  declare const props: {
+    theme?: 'button' | 'text' | 'link';
+    size?: 'normal' | 'big' | 'small';
+    level?: 'normal' | 'main' | 'danger';
+    disabled: boolean;
+    loading: boolean;
+  };
 
   export default {
     props: {
@@ -30,18 +38,15 @@
         default: false
       }
     },
-    setup(props) {
-      const {theme, size, level} = props;
-      const classes = computed(() => {
-        return {
-          [`pocket-theme-${theme}`]: theme,
-          [`pocket-size-${size}`]: size,
-          [`pocket-level-${level}`]: level
-        };
-      });
-      return {classes};
-    }
   };
+  const {theme, size, level} = props;
+  export const classes = computed(() => {
+    return {
+      [`pocket-theme-${theme}`]: theme,
+      [`pocket-size-${size}`]: size,
+      [`pocket-level-${level}`]: level
+    };
+  });
 </script>
 <style lang="scss">
     $h: 32px;
@@ -50,7 +55,7 @@
     $blue: #40a9ff;
     $radius: 4px;
     $red: #ff4848;
-    $grey:  #a3a3a3;
+    $grey: #a3a3a3;
     .pocket-button {
         box-sizing: border-box;
         height: $h;

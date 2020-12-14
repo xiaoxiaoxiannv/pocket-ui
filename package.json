@@ -1,5 +1,5 @@
 {
-  "name": "pocket-ui",
+  "name": "lite-pocket-ui",
   "version": "0.0.4",
   "files": [
     "dist/lib/*"
