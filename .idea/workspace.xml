@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/plugins/md.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/DialogDemo.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/rollup.config.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/App.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/views/Home.vue" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/lib/Tabs.vue" root0="SKIP_INSPECTION" />
@@ -87,14 +91,7 @@
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
       <workItem from="1607332532757" duration="3887000" />
-      <workItem from="1607336451616" duration="41569000" />
-    </task>
-    <task id="LOCAL-00029" summary="Dialog支持点击关闭">
-      <created>1606457736502</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1606457736502</updated>
+      <workItem from="1607336451616" duration="42952000" />
     </task>
     <task id="LOCAL-00030" summary="Dialog支持自定义title和content,使用具名插槽">
       <created>1606458640430</created>
@@ -432,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607928165965</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="创建 lib/index.ts">
+      <created>1607928984759</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1607928984760</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="支持markdown文件" />
     <MESSAGE value="优化markdown" />
     <MESSAGE value="更新SwitchDemo" />
     <MESSAGE value="抽离用户需要拷贝的代码" />
@@ -477,7 +480,8 @@
     <MESSAGE value="忽略dist目录" />
     <MESSAGE value="把p标签的样式放到index.scss里" />
     <MESSAGE value="一键部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="一键部署" />
+    <MESSAGE value="创建 lib/index.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 lib/index.ts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607352024673">
@@ -485,12 +489,12 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607352024673" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607928164528">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607928983114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
     <state x="-1606" y="140" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607611253324" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607928164528" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607928983114" />
     <state x="93" y="107" width="1224" height="840" key="DiffContextDialog" timestamp="1607060408108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
