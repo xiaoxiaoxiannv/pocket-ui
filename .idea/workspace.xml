@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56805845-6adb-4ec0-b191-eaaac9275064" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +89,7 @@
       <workItem from="1606813882093" duration="26225000" />
       <workItem from="1607324999836" duration="5725000" />
       <workItem from="1607332532757" duration="3887000" />
-      <workItem from="1607336451616" duration="36749000" />
-    </task>
-    <task id="LOCAL-00027" summary="Dialog css">
-      <created>1606454180779</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1606454180779</updated>
+      <workItem from="1607336451616" duration="38699000" />
     </task>
     <task id="LOCAL-00028" summary="Dialog支持visible">
       <created>1606455689276</created>
@@ -435,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607922397809</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="把p标签的样式放到index.scss里">
+      <created>1607924188355</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1607924188356</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="填充文档内容" />
     <MESSAGE value="引入github样式" />
     <MESSAGE value="支持markdown文件" />
     <MESSAGE value="优化markdown" />
@@ -480,7 +478,8 @@
     <MESSAGE value="更新markdown文件" />
     <MESSAGE value="解决build无法加载md文件的问题" />
     <MESSAGE value="忽略dist目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略dist目录" />
+    <MESSAGE value="把p标签的样式放到index.scss里" />
+    <option name="LAST_COMMIT_MESSAGE" value="把p标签的样式放到index.scss里" />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607352024673">
@@ -488,12 +487,12 @@
     </state>
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606125653737" />
     <state x="325" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607352024673" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607922396188">
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2" timestamp="1607924186800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="111" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606719296537" />
     <state x="-1606" y="140" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607611253324" />
-    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607922396188" />
+    <state x="314" y="140" width="840" height="817" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607924186800" />
     <state x="93" y="107" width="1224" height="840" key="DiffContextDialog" timestamp="1607060408108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
